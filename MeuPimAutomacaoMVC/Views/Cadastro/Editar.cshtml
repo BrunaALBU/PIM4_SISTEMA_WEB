@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "Editar colaborador";
+}
+
+<div class="text-center">
+
+    <h1 class="display-4">Editar colaborador</h1>
+
+</div>
+
+<form>
+
+    <div class="form-group">
+        <label for="Matricula_func">Matrícula</label>
+        <input type="text" class="form-control" placeholder="Digite a matrícula">
+    </div>
+
+    <div class="form-group">
+        <label for="Nome">Nome</label>
+        <input type="text" class="form-control" placeholder="Digite o nome do colaborador cadastrado">
+    </div>
+
+    <div class="form-group">
+        <label for="Senha">Senha</label>
+        <input type="text" class="form-control" placeholder="Digite uma senha ">
+    </div>
+
+    <div class="form-group">
+        <label for="Data_Nasci">Data de nascimento</label>
+        <input type="text" class="form-control" placeholder="Digite a data de nascimento ">
+    </div>
+
+    <div class="form-group">
+        <label for="Email">E-mail</label>
+        <input type="text" class="form-control" placeholder="Digite o e-mail ">
+    </div>
+
+    <div class="form-group">
+        <label for="Telefone">Telefone</label>
+        <input type="text" class="form-control" placeholder="Digite um telefone celular ">
+    </div>
+
+    <div class="form-group">
+        <label for="Data_admissao">Data de entrada</label>
+        <input type="text" class="form-control" placeholder="Digite a data de entrada do colaborador ">
+    </div>
+
+    <div class="form-group">
+        <label for="Cargo">Cargo</label>
+        <input type="text" class="form-control" placeholder="Digite o cargo do colaborador ">
+    </div>
+
+    <div class="form-group">
+        <label for="Turno">Turno</label>
+        <input type="text" class="form-control" placeholder="Digite o turno do colaborador ">
+    </div>
+
+    <button type="submit" class="btn btn-primary btn-block">Alterar</button>
+    <a class="btn btn-info btn-block" asp-controller="Cadastro" asp-action="Index" role="button"> Voltar</a>
+</form>
+
